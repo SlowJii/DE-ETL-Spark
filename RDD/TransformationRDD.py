@@ -6,7 +6,6 @@ sc = SparkContext(conf = conf)
 
 number = [1,2,3,4,5,6,7,8,9,10]
 rdd = sc.parallelize(number)
-#print(rdd.collect())
 
 #su dung transformation de khoi tao rdd moi nham thay doi gia tri data (chung minh tinh bat bien cua rdd)
 squareRdd = rdd.map(lambda i: i*i)
