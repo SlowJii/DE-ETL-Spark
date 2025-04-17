@@ -20,5 +20,5 @@ for key,value in groupByKeyRDD.collect():
 """
 Nhuoc diem cua Group By Key la kho thuc hien cac tinh toan
 Ban chat cua no la chi nhom dc cac key, con tinh toan tren cac key hay value thi kha kho
-==> Spark de ra cai Reduce By Key de sua chua cai han che cua Group By Key
+==> Spark tao ra cai Reduce By Key de sua chua cai han che cua Group By Key
 """
