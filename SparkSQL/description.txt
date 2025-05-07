@@ -1,0 +1,7 @@
+Spark SQL la gi ?
+=> Xu li du lieu kh co cau truc: RDD
+=> Xu li du lieu co cau truc (csv, parquet ..vv..): Dung SparkSQL
+
+SparkSQL duoc build dua tren y tuong cua Python Pandas, nma dc build tren loi RDD
+
+

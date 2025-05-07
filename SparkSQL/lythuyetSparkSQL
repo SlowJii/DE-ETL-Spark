@@ -1,0 +1,34 @@
+                                             PYSPARK SQL TYPE
+
+================BASIC===================
+
+StringType = Kieu chuoi ki tu
+ByteType = Kieu so nguyen 8 bit
+ShortType = Kieu so nguyen 16 bit
+LongType = Kieu so nguyen 64 bit
+IntegerType = Kieu so nguyen 32 bit
+FloatType = Kieu so thuc 32 bit
+DoubleType = Kieu so thuc 64 bit
+BooleanType = Kieu logical
+
+DecimalType(precision, scale) = Do chinh xac cua so thap phan
+    - precision: Tong chu so
+    - scale: So chu so sau dau phay
+
+TimestampType = Kieu thoi gian ngay va gio
+DateType = YYYY/MM/DD
+
+==============ADVANCED==================
+
+StructType = Bieu dien mot cau truc du lieu
+StrucField(name, datatype, nullable) = Bieu dien mot truong du lieu trong StructType
+    - name: Ten ban ghi (record name)
+    - datatype: Kieu du lieu
+    - nullable: True-False (Kha nang cot nay co dc phep NULL hay khong)
+
+ArrayType(elementType) = Bieu dien cac mang duoc chi dinh
+    - elementType: Kieu du lieu cua cac phan tu ben trong mang
+
+MapType(keyType, valueType) = Bieu dien cac cap Key-Value
+    - keyType: Kieu du lieu cua khoa (key)
+    - valueType: Kieu du lieu cua gia tri (value)
