@@ -83,6 +83,10 @@ schema = StructType([
     StructField("isActive", BooleanType(), True)
 ])
 
+
 df = spark.createDataFrame(data,schema)
 df.show(truncate=False) #truncate = False: Show het cac dong du lieu
 df.printSchema()
+
+
+df1 = spark.range(1,10,2).toDF("nums").show()
